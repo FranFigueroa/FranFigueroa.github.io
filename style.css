@@ -6,16 +6,26 @@
 /* hero background image */
 .bgimage {
     height:100vh;
-    background: url('images/heroImage.jpeg');
+    /*background: url('images/heroImage.jpeg');*/
     background-size:cover;
     position:relative;
+    background-color:#000;
+
 }
 /* text css above hero image*/
+
+.nav-item{
+    color:#fff;
+}
+
+
 .hero_title {
     font-size: 4.5rem;
+    color:#fff;
 }
 .hero_desc {
     font-size: 2rem;
+    color:#808080;
 }
 .hero-text {
     text-align: center;
@@ -23,7 +33,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: #fff;
 }
 
 /* spacing on all sections */
@@ -36,7 +46,13 @@
 }
 /* about section image css */
 .imageAboutPage {
-    width: 100%;
+    width: 295.88px;
+    height:298.95px;   
+
+}
+
+.card-text{
+    font-family: sans-serif;
 }
 
 /* services section css */
@@ -74,4 +90,12 @@
 #footer {
     background-color: #808080;
     text-align: center;
+}
+
+.text-center{
+    height: 100%;
+}
+
+.imageAboutPage{
+    padding:20px;
 }
